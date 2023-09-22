@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/statoil/react-native-trustkit#readme",
   "dependencies": {
-    "ajv": "^5.0.1",
+    "ajv": "^6.12.3",
     "react": ">=16.0.0",
     "react-native": ">=0.47.1"
   },
