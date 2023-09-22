@@ -19,7 +19,7 @@ static NSString *ErrorDomain = @"RNTrustKitPluginErrorDomain";
 
 RCT_EXPORT_MODULE();
 
-RCT_REMAP_METHOD(configure,
+RCT_EXPORT_METHOD(configure,
                  resolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
 {
@@ -46,7 +46,7 @@ RCT_REMAP_METHOD(configure,
     }
 };
 
-RCT_REMAP_METHOD(configure,
+RCT_EXPORT_METHOD(configure,
                  config:(NSDictionary *)config
                  resolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
