@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m}"
 
   s.dependency "React-Core"
-  s.dependency "TrustKit", "~> 1.5.0"
+  s.dependency "TrustKit", "~> 3.0.3"
 end
